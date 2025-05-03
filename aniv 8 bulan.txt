@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 8 Months, Iyan!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 0.5em 0;
+    }
+
+    p {
+      font-size: 1.5em;
+      max-width: 600px;
+      margin-bottom: 1.5em;
+    }
+
+    .heart {
+      font-size: 3em;
+      color: red;
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    .photo {
+      max-width: 300px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+      margin-bottom: 1.5em;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 0.9em;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div class="heart">❤️</div>
+    <img src="IMG_3422.JPG" alt="Foto Iyan" class="photo">
+    <h1>Happy 8 Months, Iyan!</h1>
+    <p>
+      Terima kasih sudah menjadi bagian terindah dalam hidupku. 8 bulan ini luar biasa karena kamu selalu ada. 
+      Semoga perjalanan kita makin kuat dan penuh cinta! 💖
+    </p>
+    <div class="heart">❤️</div>
+    <div class="footer">Dari Alif untuk Iyan, dengan cinta 🥰</div>
+  </div>
+</body>
+</html>
